@@ -4,8 +4,8 @@ import (
 	"errors"
 
 	"github.com/godbus/dbus/v5"
-	"github.com/muka/go-bluetooth/bluez"
-	"github.com/muka/go-bluetooth/bluez/profile"
+	"github.com/dimonzozo/go-bluetooth/bluez"
+	"github.com/dimonzozo/go-bluetooth/bluez/profile"
 	log "github.com/sirupsen/logrus"
 )
 

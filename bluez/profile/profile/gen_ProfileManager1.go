@@ -4,7 +4,7 @@ package profile
 
 import (
    "sync"
-   "github.com/muka/go-bluetooth/bluez"
+   "github.com/dimonzozo/go-bluetooth/bluez"
    "github.com/godbus/dbus/v5"
 )
 

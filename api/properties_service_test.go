@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/muka/go-bluetooth/bluez"
-	"github.com/muka/go-bluetooth/props"
-	"github.com/muka/go-bluetooth/util"
+	"github.com/dimonzozo/go-bluetooth/bluez"
+	"github.com/dimonzozo/go-bluetooth/props"
+	"github.com/dimonzozo/go-bluetooth/util"
 	"github.com/stretchr/testify/assert"
 )
 

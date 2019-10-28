@@ -2,7 +2,7 @@ package obex
 
 import (
 	"github.com/godbus/dbus/v5"
-	"github.com/muka/go-bluetooth/bluez"
+	"github.com/dimonzozo/go-bluetooth/bluez"
 )
 
 // NewObexSession1 create a new ObexSession1 client

@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/muka/go-bluetooth/cmd"
+import "github.com/dimonzozo/go-bluetooth/cmd"
 
 func main() {
 	cmd.Execute()

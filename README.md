@@ -2,7 +2,7 @@
 
 Go bluetooth API for Bluez DBus interface.
 
-[![GoDoc](https://godoc.org/github.com/muka/go-bluetooth?status.svg)](https://godoc.org/github.com/muka/go-bluetooth)
+[![GoDoc](https://godoc.org/github.com/dimonzozo/go-bluetooth?status.svg)](https://godoc.org/github.com/dimonzozo/go-bluetooth)
 
 <img align="center" width="240" src="./gopher.png">
 
@@ -10,7 +10,7 @@ Go bluetooth API for Bluez DBus interface.
 
 1. Build the binary
 
-  `cd $GOPATH/src/github.com/muka/go-bluetooth && make build`
+  `cd $GOPATH/src/github.com/dimonzozo/go-bluetooth && make build`
 
 2. Run the examples eg.
 
@@ -26,7 +26,7 @@ High level features supported:
 
 - [x] Client code generation from bluez documentation
 - [x] Shell wrappers for `rfkill`, `btmgmt`, `hciconfig`, `hcitool`
-- [x] An `hci` basic API (from a fork of [go-ble/ble](https://github.com/muka/ble))
+- [x] An `hci` basic API (from a fork of [go-ble/ble](https://github.com/dimonzozo/ble))
 - [x] Expose bluetooth service from go code
 - [x] Pairing and authentication support (via agent)
 - [x] Basic beaconing (iBeacon and Eddystone)
@@ -42,7 +42,7 @@ Generated code has `gen_` prefix. If an API file exists with the same filename b
 **Note** Ensure to install proper dbus rules on the system. For a dev setup, you can use the library configuration as follow
 
 ```sh
-  cd $GOPATH/src/github.com/muka/go-bluetooth
+  cd $GOPATH/src/github.com/dimonzozo/go-bluetooth
   sudo ln -s `pwd`/scripts/dbus-go-bluetooth-service.conf /etc/dbus-1/system.d/
   sudo ln -s `pwd`/scripts/dbus-go-bluetooth-dev.conf /etc/dbus-1/system.d/
   # Reload dbus to load new policies:
